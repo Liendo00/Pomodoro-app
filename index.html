@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-16x16.png">
+    <title>Pomodoro App</title>
+</head>
+<body>
+
+<div id="contenedor" class="container-fluid">
+
+    <div id="titulo" class="row text-center mb-5">
+        <h1>Pomodoro App</h1>
+        <hr>
+    </div>
+  
+  <div id="pomodoro" class="row text-center ">  
+    <div id="circulo" class="col-12 rounded-circle">
+    <div id="status" class="mt-4"></div>
+    <div class="timerDisplay">25:00</div>
+    <button id="start-btn" class="btn-lg btn-success">INICIAR</button>
+  </div>
+  
+  <div class="settings row mt-4">
+        <div id="work class" class="col">
+            <p>Duración de Trabajo</p>
+            <button class="btn-lg btn-success btn-settings" id="work-plus">+</button>
+            <div><span id="work-min">25</span> mins</div>
+            <button class="btn-lg btn-success btn-settings" id="work-minus">-</button>
+        </div>
+        
+        <button id="reset" class="col-2 btn-lg btn-warning ">REINICIAR</button>
+        
+        <div id="break" class="col">
+            <p>Duración de Descanso</p>
+            <button class="btn-lg btn-success btn-settings" id="break-plus">+</button>
+            <div><span id="break-min">5</span> mins</div>
+            <button class="btn-lg btn-success btn-settings" id="break-minus">-</button>
+        </div>
+  </div>
+
+
+</div>
+
+<script src="main.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

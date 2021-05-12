@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:rgba(23,34,59,1);
+
+}
+
+#contenedor {
+    margin: 0px auto;
+    color: rgba(246,246,233,1);
+    background-color:rgba(23,34,59,1);
+    height:1100px;
+
+
+}
+
+#titulo {
+    margin: 0px auto;
+
+}
+
+#circulo {
+    height: 400px;
+    width:  400px;
+    margin: 0px auto;
+    background-color:rgba(23,34,59,1) ;
+    border: 6px solid rgba(255,103,104,1);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.timerDisplay {
+    font-size: 100px;
+    letter-spacing:10px;
+    margin-top: 14%;
+}
+
+#start-btn{
+    margin-top:15%;
+}
+
+#reset {
+    height:40%;
+    margin-left: 0px;
+}
+
+#start-btn,#break-min,#break-plus,#break-minus {
+    color: rgba(246,246,233,1);
+
+}
